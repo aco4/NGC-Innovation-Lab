@@ -18,8 +18,9 @@ dsrdtr = False,
 writeTimeout = 2
 )
 
+TERMINATOR = '|'
+
 def sendCommand(command):
-    TERMINATOR = '|'
     arduino.write((command + TERMINATOR).encode())
 
 def startCollection():
