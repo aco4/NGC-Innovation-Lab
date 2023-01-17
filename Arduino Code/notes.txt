@@ -1,0 +1,8 @@
+Communication between Arduino and sensors
+https://youtu.be/6IAkYpmA1DQ
+
+Key points: Each sensor contains an address and internal register address (where data is stored)
+These addresses must be found (from sensor's datasheet)
+
+Code:
+Arduino Wire Library must be included in the sketch (imported).
