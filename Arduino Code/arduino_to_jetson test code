@@ -1,0 +1,15 @@
+void setup()
+{
+  Serial.begin(119200);
+}
+
+void loop()
+{
+  if (Serial.available())
+  {
+    Serial.println("Hello Jetson!");
+  }
+}
+
+// link for website with code is here: 
+// https://www.seeedstudio.com/blog/2020/06/18/arduino-jeston-nano-xavier-nx-communication-using-python-via-usb-m/#:~:text=Firstly%2C%20connect%20your%20Arduino%20with,Type%20in%20the%20following%20command.&text=If%20you%20get%20%2Fdev%2FttyACM0,are%20connected%20to%20each%20other.
