@@ -1,3 +1,7 @@
+// Northrop Grumman Innovation Lab
+// East Coast
+// February 2023
+
 // https://lastminuteengineers.com/multiple-ds18b20-arduino-tutorial/ 
 
 #include <OneWire.h>
