@@ -1,3 +1,7 @@
+# Northrop Grumman Innovation Lab
+# East Coast
+# February 2023
+
 # https://github.com/slawomirkorbas/robotics/blob/main/python_jetson/serial_comm.py
 
 import serial 
